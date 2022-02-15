@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/beerFragment">
+
+    <fragment
+        android:id="@+id/beerFragment"
+        android:name="com.example.beer_recipes_koin.presentation.BeerFragment"
+        android:label="fragment_beer"
+        tools:layout="@layout/fragment_beer" />
+</navigation>
